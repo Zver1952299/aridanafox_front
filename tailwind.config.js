@@ -1,6 +1,6 @@
 /** @type {import('tailwindcss').Config} */
-module.exports = {
-  content: ["./src/**/*.{js,ts,jsx,tsx}"],
+export default {
+  content: ["./index.html", "./src/**/*.{js,ts,jsx,tsx}"],
   theme: {
     extend: {
       colors: {
@@ -9,6 +9,9 @@ module.exports = {
         accentGold: "#FFD700",
         textLight: "#EDE9FE",
         shadowMystic: "#2D2D4A",
+      },
+      fontFamily: {
+        jura: ["Jura", "sans-serif"],
       },
     },
   },

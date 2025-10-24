@@ -1,1 +1,9 @@
 @import "tailwindcss";
+
+@theme {
+  --color-myOrange: #e38f00;
+}
+
+body {
+  box-sizing: border-box;
+}
